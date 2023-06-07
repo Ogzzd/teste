@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"incremental": true,
+		"baseUrl": ".",
+
+		"paths": {
+			"@config/*": ["./src/config/*"],
+			"@controllers/*": ["./src/controllers/*"],
+			"@database/*": ["./src/database/*"],
+			"@errors/*": ["./src/errors/*"],
+			"@models/*": ["./src/models/*"],
+			"@views/*": ["./src/views/*"]
+		}
+	}
+}
