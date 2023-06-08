@@ -38,12 +38,16 @@ $ yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'
 
 # Run Migrates
 
-$ yarn migration:run
+$ yarn typeorm migration:run
 
 # Start the Server
 
 $ yarn start
 ```
+
+## Pending Items
+
+- [ ] Remove Deprecated Methods
 
 ## How to contribute
 
