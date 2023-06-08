@@ -8,7 +8,7 @@ The goal is to create an application where you can find and visit orphanages.
 
 This project was developed with the following technologies:
 
-- [Node.js](https://nodejs.org)
+- [Node.js 14.21.3](https://nodejs.org)
 - [TypeScript](https://www.typescriptlang.org)
 
 ## How To Use
@@ -36,7 +36,7 @@ $ yarn husky install
 
 $ yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'
 
-# Run Migrates
+# If you want to recreate the database run the following migrates
 
 $ yarn typeorm migration:run
 
@@ -44,10 +44,6 @@ $ yarn typeorm migration:run
 
 $ yarn start
 ```
-
-## Pending Items
-
-- [ ] Remove Deprecated Methods
 
 ## How to contribute
 
