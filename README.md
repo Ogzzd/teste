@@ -32,10 +32,6 @@ $ yarn install
 
 $ yarn husky install
 
-# Add hook
-
-$ yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'
-
 # If you want to recreate the database run the following migrates
 
 $ yarn typeorm migration:run
