@@ -39,6 +39,8 @@ $ yarn typeorm migration:run
 # Start the Server
 
 $ yarn start
+
+# Access: http://localhost:3333/orphanages to view all Orphanages registered so far
 ```
 
 ## How to contribute
